@@ -1,6 +1,8 @@
 <div class="container">
 
     <h1 align="center">Eat-Da-Burger!</h1>
+    <hr>
+    <h5 align="center">Press the buttons to devour or add new burgers</h5>
 
         <div class="row">
             <div class="col m6">
@@ -8,7 +10,7 @@
                 
                 <div class="card-stacked">
                   <div class="card-content">
-                      <span class="card-title">Look at the Burgers!!</span>
+                      <span align="center" class="card-title">Ready for a Burger?!</span>
                         <ul>
                           {{#each burgers}}
                             {{#unless devoured}}
@@ -27,7 +29,7 @@
                   </div> --}}
                   <div class="card-stacked">
                     <div class="card-content">
-                        <span class="card-title">Yum!</span>
+                        <span align="center" class="card-title">Yum!</span>
                           <ul>
                             {{#each burgers}}
                               {{#if devoured}}
@@ -49,7 +51,7 @@
         <input type="text" id="burger-id" name="burger-name">
       </div>
 
-      <button type="submit">Add Burger</button>
+      <button class="add-burger" type="submit">Add Burger</button>
     </form>
 
 </div>
