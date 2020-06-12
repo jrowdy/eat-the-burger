@@ -3,13 +3,17 @@ body {
  background-color: rgb(236, 236, 133);
 }
 
+h1, h3.titles{
+   font-family: 'Pacifico', cursive;
+}
 
 .container {
    width: 90%;
 }
 
 .card {
-   width: 600px;
+   max-width: 560px;
+   min-height: 300px;
 }
 
 .card-image {
@@ -28,10 +32,10 @@ span {
 
 li {
    padding: 1px;
+   font-size: 17px;
+   font-weight: bold;
 }
 
-#github {
-  width: 100%;
-  color: black;
-  font-size: 18px;
-}
+div.card.horizontal{
+background-color: rgb(132, 197, 172);
+} 
